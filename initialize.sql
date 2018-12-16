@@ -126,6 +126,8 @@ EXECUTE PROCEDURE fn_update_payments();
 \echo ''
 \echo 'Init Done, Enjoy VenmoDB!'
 \echo ''
+\echo 'Refer to the README.txt'
+\echo ''
 \echo 'Run the show_all.sql script before executing the first query'
 \echo 'Then, execute all the queries sequentially, starting with the simple, then the complex'
 \echo 'The transactions will make the most sense given hardcoded values'

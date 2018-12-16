@@ -15,6 +15,14 @@ SETUP: \
 \
 Running initialize.sql will call the create file, populate the database, and create some essential triggers. \
 \
-User stories are reflected in the .py files. \
+in terminal, run: psql -d Postgres -U user -f initialize.sql\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 User stories are reflected in the .py files. \
 \
-Running show_all before and after calling a .py file will reflect appropriate changes in the Venmo Database. }
+  	        run: python query_name.py\
+\
+Running show_all before and after calling a .py file will reflect appropriate changes in the Venmo Database. \
+\
+                   run:  psql -d Postgres -U user -f show_all.sql}
