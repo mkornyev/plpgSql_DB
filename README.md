@@ -9,17 +9,17 @@ Creators: Max Kornyev, Alex Nelson, Annie Spahn
 
 2. In terminal, run: 
 
-	'''
+	```
 	psql -d Postgres -U user -f initialize.sql
-	'''
+	```
 
 3. User stories are reflected in the .py files. Run with:
-	'''
+	```
 	python query_name.py
-	'''
+	```
 4. Running show_all before and after calling a .py file will reflect appropriate changes in the Database. Run: 
-	'''
+	```
 	psql -d Postgres -U user -f show_all.sql
-	'''
+	```
 
 ## mk
