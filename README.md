@@ -1,4 +1,4 @@
-# VenmoDB
+# pspgSql Database 
 
 Welcome to VenmoDB, built especially for your enterprise needs.  
 Creators: Max Kornyev, Alex Nelson, Annie Spahn 
